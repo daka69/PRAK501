@@ -1,7 +1,7 @@
 <?php
 function koneksi() {
 
-    $uri = "postgresql://postgres:Banjarbaru69.@db.erihjdggeykqdluhiclv.supabase.co:5432/postgres";
+    $uri = "postgresql://postgres.erihjdggeykqdluhiclv:knFWW6mVXIzFTThP@aws-1-ap-northeast-2.pooler.supabase.com:6543/postgres";
 
     $params = parse_url($uri);
     $host = $params['host'];
